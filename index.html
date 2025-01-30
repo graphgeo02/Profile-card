@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="index.css">
+  <link
+  href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+  rel="stylesheet"
+/>
+</head>
+<body>
+
+  <div class="profile-card">
+    <div class="image-content">
+        <img src="./img/my-head-shot-photo-1.jpg" alt="Profile Picture" data-testid="profilePicture" class="profile-img">
+    </div>
+   <div class="card-info">
+    <h1 data-testid="fullName">Abdullahi Abdulkadir</h1>
+    <h3 data-testid="jobTitle">Web Developer</h3>
+    <p data-testid="shortBio " class="shortBio">
+      I am a passionate web developer with over 2 years of experience in building web applications. I specialize in front-end development and always seek innovative ways to improve user experience and interfaces.
+    </p>
+    <p data-testid="currentLocation">Kano, Nigeria</p>
+    <p data-testid="emailAddress">graphgeo02@gmail.com</p>
+
+    <div data-testid="socialLinks" class="social-links">
+      <a class="link" href="https:/www.linkedin.com/in/abdullahi-abdulkadir-mohammed/" target="_blank">LinkedIn</a>
+      <a  class="link"             href="https:/github.com/graphgeo02" target="_blank">GitHub</a>
+      <a  class="link" href="https:/x.com/Abdullahi_Audil" target="_blank">Twitter</a>
+    </div>
+
+    <p data-testid ="currentTimeUTC" id="current-time"></p>
+   </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

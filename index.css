@@ -1,0 +1,123 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .profile-card {
+    background: #fff;
+    width: 20rem;
+    /* padding: 20px; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    text-align: center;
+  
+    
+  }
+  
+  .profile-img {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid gray;
+  
+   
+  }
+  .image-content{
+    max-width: 20rem;
+    height: 12.5rem;
+    position: relative;
+    /* background: rgb(195,10, 170, 9); */
+    background:  #393E46;;
+   padding: 2rem 0;
+   border-radius: 10px 10px 0px 0;
+  }
+
+  .card-info{
+    padding: 2rem;
+  }
+
+  .card-info .shortBio{
+    text-align: justify;
+  }
+
+  h1 {
+    font-family: 'Lobster', cursive;
+    margin-top: 30px;
+    font-size: 26px;
+    /* color: #4ECCA3; */
+    color: rgb(195,10, 170, 9);
+  }
+  
+  h3 {
+    color: #555;
+    font-size: 18px;
+    font-family:  'Indie Flower', cursive;
+  }
+  
+  p {
+    
+    margin-top: 7px;
+    color: #666;
+  
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background: #393E46;
+    padding: 0.5rem 0.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  #current-time{
+   margin-top: 10px;
+  }
+  @media (max-width: 300px) {
+    h1 {
+     font-size: 1rem;
+    }
+    h3{
+        font-size: 0.9rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .social-links a{
+       padding: 0.3rem;
+       font-size: 0.8rem;
+    }
+    .profile-card{
+        margin-left: 4rem;
+    }
+    .profile-img {
+        position: absolute;
+        top: 70%;
+        left: 25%;
+    }
+  }
+  
